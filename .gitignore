@@ -57,6 +57,8 @@ packages/*/build/**
 packages/*/plugin/build/**
 packages/@*/*/build/**
 
+# Allow build directory for react-native-branch package
+!packages/react-native-branch/build/** 
 
 # App native folders
 
